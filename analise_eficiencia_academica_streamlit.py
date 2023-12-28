@@ -7,14 +7,13 @@ from datetime import datetime
 # Configurar o tema da página
 st.set_page_config(
     page_title="Projeto_Analise",
-    page_icon="📊",  # Substitua pelo emoji ou ícone desejado
+    page_icon="📊",  
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 
 
-#st.set_page_config(page_title="Projeto_Analise")
 
 with st.container():
     st.title("Eficiência Acadêmica - 2021")
